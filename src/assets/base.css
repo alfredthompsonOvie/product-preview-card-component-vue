@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  box-sizing: border-box;
+  --ff-title: 'Fraunces', serif;
+  --ff-text: 'Montserrat', sans-serif;
+
+  --fs-paragraph: 0.875rem;
+  --fw-md: 500;
+  --fw-bold: 700;
+    
+  --DarkCyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+
+  --VeryDarkBlue: hsl(212, 21%, 14%);
+  --DarkGrayishBlue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+
+}
+body{
+  font-family: var(--ff-text);
+  font-size: var(--fs-paragraph);
+  background-color: var(--Cream);
+  color: var(--DarkGrayishBlue);
+}
